@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Carousel_Page.MainPage"
+              xmlns:local="clr-namespace:Carousel_Page"
+              
+              >
+    
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout BackgroundColor="Green" Margin="10">
+                <Label Text="Welcome-01" FontSize="30"/>
+                <Button ></Button>
+                <Entry></Entry>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout BackgroundColor="Blue">
+                <Label Text="Welcome-02" FontSize="30"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Welcome-03" FontSize="30"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout>
+                <Label Text="Welcome-04" FontSize="30"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+
+    <local:Page5></local:Page5>
+    <local:Page6></local:Page6>
+
+
+</CarouselPage>
